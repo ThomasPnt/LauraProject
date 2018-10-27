@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  height: 200px;
+  background-color: #C177B5; 
+  position: relative;
+}
+
+.title{
+  color: white;
+  margin: 0 auto;
+  font-size: 48px;
+  padding-top: 30px;
+}
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  min-height: calc(100vh - 300px);
+}

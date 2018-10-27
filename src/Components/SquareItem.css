@@ -1,0 +1,89 @@
+.SquareItem{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.SquareItem-Title{
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  bottom: 0;
+}
+
+.SquareItem-Title::before{
+  background-color: black;
+  opacity: .7;
+  z-index: 0;
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.SquareItem-Span{
+  position: relative;
+  z-index: 10;
+}
+
+.SquareItem-Slide{
+  max-height: 0px;
+  transition: max-height 1s; 
+}
+
+.SquareItem-Price-Container{
+  width: 50px;
+  padding: 10px 25px;
+  position: absolute;
+  right: -100px;
+  transition: linear 0.3s;
+}
+
+.SquareItem-Price-Container::before{
+  background-color: black;
+  opacity: .7;
+  z-index: 0;
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.SquareItem-Price{
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.SquareItem:hover .SquareItem-Slide{
+  max-height: 200px;
+}
+
+.SquareItem:hover .SquareItem-Price-Container{
+  right: 0;
+}
+
+#conseil-tendance{
+  background-image: url('../Routes/Assets/conseil-tendance.jpg');
+}
+
+#relooking{
+  background-image: url('../Routes/Assets/relooking.jpg');
+}
+
+#shopping{
+  background-image: url('../Routes/Assets/shopping.jpg');
+}

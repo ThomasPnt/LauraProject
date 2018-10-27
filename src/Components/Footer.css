@@ -1,0 +1,21 @@
+.Footer{
+  height: 100px;
+  background-color: #C177B5; 
+  width: 100%;
+}
+
+.content{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.text{
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
