@@ -1,15 +1,15 @@
 {
-  "main.css": "/LauraProject/static/css/main.870f2fc5.chunk.css",
-  "main.js": "/LauraProject/static/js/main.01f7acde.chunk.js",
-  "main.js.map": "/LauraProject/static/js/main.01f7acde.chunk.js.map",
-  "static/js/1.e204711c.chunk.js": "/LauraProject/static/js/1.e204711c.chunk.js",
-  "static/js/1.e204711c.chunk.js.map": "/LauraProject/static/js/1.e204711c.chunk.js.map",
+  "main.css": "/LauraProject/static/css/main.8b54ac6a.chunk.css",
+  "main.js": "/LauraProject/static/js/main.c7c08850.chunk.js",
+  "main.js.map": "/LauraProject/static/js/main.c7c08850.chunk.js.map",
+  "static/js/1.d63e75bd.chunk.js": "/LauraProject/static/js/1.d63e75bd.chunk.js",
+  "static/js/1.d63e75bd.chunk.js.map": "/LauraProject/static/js/1.d63e75bd.chunk.js.map",
   "runtime~main.js": "/LauraProject/static/js/runtime~main.11222b15.js",
   "runtime~main.js.map": "/LauraProject/static/js/runtime~main.11222b15.js.map",
+  "static/media/SquareItem.css": "/LauraProject/static/media/tresse.1578de68.jpg",
   "static/media/logo_facebook.png": "/LauraProject/static/media/logo_facebook.aeef1860.png",
-  "static/media/SquareItem.css": "/LauraProject/static/media/conseil-tendance.6edb3713.jpg",
-  "static/css/main.870f2fc5.chunk.css.map": "/LauraProject/static/css/main.870f2fc5.chunk.css.map",
+  "static/css/main.8b54ac6a.chunk.css.map": "/LauraProject/static/css/main.8b54ac6a.chunk.css.map",
   "index.html": "/LauraProject/index.html",
-  "precache-manifest.2303430eeb024d229be1d72304b33a83.js": "/LauraProject/precache-manifest.2303430eeb024d229be1d72304b33a83.js",
+  "precache-manifest.bcb39e3ea72a566233708c9b8ef5576f.js": "/LauraProject/precache-manifest.bcb39e3ea72a566233708c9b8ef5576f.js",
   "service-worker.js": "/LauraProject/service-worker.js"
 }
