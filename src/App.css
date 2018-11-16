@@ -18,8 +18,30 @@
   padding-top: 30px;
 }
 
+.Main{
+  position: relative;
+  overflow: hidden;
+  background: #f4f4f4;
+  z-index: -2;
+}
+
 .container{
+  background: white;
+  z-index: 1;
   max-width: 1080px;
   margin: 0 auto;
   min-height: calc(100vh - 300px);
+}
+
+.Logo{
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.MiniLogo{
+  z-index: -1;
+  width: 100px;
+  position: absolute;
 }
