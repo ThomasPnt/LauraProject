@@ -11,11 +11,11 @@ export class NavBar extends Component {
             Acceuil
           </span>
         </NavLink>
-        <NavLink className="link" activeClassName="active" to="/mode">
+        {/* <NavLink className="link" activeClassName="active" to="/mode">
           <span>
             Mode
           </span>
-        </NavLink>
+        </NavLink> */}
         <NavLink className="link" activeClassName="active" to="/maquillage">
           <span>
             Maquillage

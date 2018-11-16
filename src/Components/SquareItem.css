@@ -68,6 +68,55 @@
   font-weight: bold;
 }
 
+.SquareItem-More{
+  background-color: #eeeeee;
+  height: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item{
+  padding: 1px 0;
+  display: block;
+  text-align: left;
+  position: relative;
+  padding-left: 10px;
+}
+
+.item:nth-child(even){
+  background-color: #f4f4f4;
+}
+
+.item-price{
+  font-weight: bold;
+  right: 10px;
+  position: absolute;
+}
+
+.item-text{
+  white-space: nowrap;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+#display{
+  width: 50%;
+}
+
+#active{
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#unactive{
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
 .SquareItem:hover .SquareItem-Slide{
   max-height: 200px;
 }
@@ -86,4 +135,36 @@
 
 #shopping{
   background-image: url('../Routes/Assets/shopping.jpg');
+}
+
+#tresse{
+  background-image: url('../Routes/Assets/tresse.jpg');
+}
+
+#hair-bun{
+  background-image: url('../Routes/Assets/hair-bun.jpg');
+}
+
+#hair-day{
+  background-image: url('../Routes/Assets/hari-day.jpg');
+}
+
+#hair-night{
+  background-image: url('../Routes/Assets/hair-night.jpg');
+}
+
+#hair-mariage{
+  background-image: url('../Routes/Assets/hair-mariage.jpg');
+}
+
+#hair-fete{
+  background-image: url('../Routes/Assets/hair-fete.jpg');
+}
+
+#makeup-day{
+  background-image: url('../Routes/Assets/makeup.jpg');  
+}
+
+#epilation{
+  background-image: url('../Routes/Assets/epilation.jpg');    
 }
